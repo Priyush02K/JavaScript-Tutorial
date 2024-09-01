@@ -23,6 +23,12 @@ console.info("Hello world!");
 //table
 console.table(["Audi", "Volvo", "Ford"]);
 
+obj={a:"priyush",
+     b:"Ritesh",
+     c:"Rupesh"
+}
+console.table(obj)
+
 //time
 console.time();
 for (let i = 0; i < 100000; i++) {
